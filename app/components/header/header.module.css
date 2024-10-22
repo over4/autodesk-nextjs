@@ -1,7 +1,13 @@
-.header{
-    background-color: rebeccapurple;
+.background{
+    background-color: black;
+    color: white;
+    height: 65px;
 }
-
-.searchHomeWrapper{
-    font-size: large;
+.header-wrapper{
+    height: 65px;
+}
+.large-font-home{
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
 }

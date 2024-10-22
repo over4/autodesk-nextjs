@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Footer() {
+export default function NewsPanel() {
     return (
         <div>
-            <div>Footer</div>
+            <div>News Panel</div>
         </div>
     );
 }

@@ -12,6 +12,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href='/icon-3.png' type="image/png" sizes="16x32" />
+      </head>
       <body>
         {children}
       </body>

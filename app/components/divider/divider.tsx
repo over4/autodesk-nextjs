@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Footer() {
+export default function Divider() {
     return (
         <div>
-            <div>Footer</div>
+            <div>Divider</div>
         </div>
     );
 }
