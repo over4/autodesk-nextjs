@@ -1,6 +1,6 @@
 import React from "react"; 
 import Header from "./components/header/header";
-import Navbar from "./components/navbar/navbar";
+import NavDropdown from "./components/nav-dropdown/nav-dropdown";
 import HomePageTabs from "./components/home-page-tabs/home-page-tabs";
 import HomePagePanel from "./components/home-page-help-banner/home-page-help-banner";
 import HomePageComic from "./components/home-page-comic/home-page-comic";
@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div>
         <Header></Header>
-        <Navbar navLinks = {navProps.navLinks} ></Navbar>
+        <NavDropdown navLinksProps={navProps.navLinks}></NavDropdown>
         <HomePageTabs></HomePageTabs> 
         <HomePagePanel></HomePagePanel>
         <HomePageComic></HomePageComic>
