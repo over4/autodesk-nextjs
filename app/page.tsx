@@ -14,7 +14,7 @@ export default function Home() {
     const navProps = {
         navLinks: [
             { navTitle: "Home", links: [{title:"title1",link:'link1'},{title:"title2",link:'link2'},{title:"title3",link:'link3'},{title:"title4",link:'link4'}]},
-            { navTitle: "About", links: [{title:"title1",link:'link1'},{title:"title2",link:'link2'},{title:"title3",link:'link3'},{title:"title4",link:'link4'}] },
+            { navTitle: "About", links: [{title:"title1123123",link:'link1123123'},{title:"title2dasdasd",link:'link2'},{title:"title3",link:'link3'},{title:"title4",link:'link4'}] },
             { navTitle: "Services", links: [{title:"title1",link:'link1'},{title:"title2",link:'link2'},{title:"title3",link:'link3'},{title:"title4",link:'link4'}] },
             { navTitle: "Contact", links: [{title:"title1",link:'link1'},{title:"title2",link:'link2'},{title:"title3",link:'link3'},{title:"title4",link:'link4'}] },
         ]
